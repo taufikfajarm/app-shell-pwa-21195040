@@ -1,0 +1,28 @@
+{
+  "name": "Grand Sulthan",
+  "short_name": "Grand",
+  "description": "Perumahan di Brebes Kota",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#007bff",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "assets/img/icon.png",
+      "sizes": "801x801",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "assets/img/icon-2.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "scope": "/",
+  "manifest_version": 3,
+  "permissions": [
+    "notifications"
+  ]
+}
